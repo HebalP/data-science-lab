@@ -1,0 +1,23 @@
+import numpy as np
+n=np.random.randint(10,size=(2,2))
+print(n)
+
+print("determinant")
+print(np.linalg.det(n))
+
+print("inverse")
+print(np.linalg.inv(n))
+
+print("matrix Rank")
+print(np.linalg.matrix_rank(n))
+
+OUTPUT
+[[2 5]
+ [8 0]]
+determinant
+-39.99999999999998
+inverse
+[[ 0.     0.125]
+ [ 0.2   -0.05 ]]
+matrix Rank
+2
